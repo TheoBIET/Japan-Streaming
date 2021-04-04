@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>JP Streaming</title>
+  </head>
+  <body>
+    <div id="container">
+      <!-- ASIDE (NAVIGATION) -->
+      <div id="nav-container">
+        <aside>
+          <div class="nav-box">
+            <!-- LOGO + TITLE -->
+            <header>
+              <div class="logo">
+                <img src="assets/images/logo.png" alt="Logo" />
+                <h1 class="title">Japan Streaming</h1>
+              </div>
+            </header>
+
+            <!-- NAVIGATION MENU -->
+            <nav class="navigation-menu">
+              <ul>
+                <li>
+                  <span><i class="fas fa-home"></i></span>Home
+                </li>
+                <li>
+                  <span><i class="far fa-calendar-alt"></i></span>Watch-List
+                </li>
+                <li>
+                  <span><i class="fas fa-heart"></i></span>Liked
+                </li>
+                <li>
+                  <span><i class="fas fa-bolt"></i></span>Trending
+                </li>
+                <li>
+                  <span><i class="fas fa-user-friends"></i></span>Friends
+                </li>
+                <li>
+                  <span><i class="fas fa-sms"></i></span>Messages
+                </li>
+                <br />
+                <li>
+                  <span><i class="fas fa-cogs"></i></span>Settings
+                </li>
+                <li>
+                  <span><i class="fas fa-power-off"></i></span>Log Out
+                </li>
+              </ul>
+            </nav>
+
+            <!-- USER -->
+            <footer>
+              <div class="user-box">
+                <div class="user-box__user">
+                  <div
+                    class="user-box__user__profile-picture --profil-picture"
+                  ></div>
+                  <div class="user-box__user__user-username">ƊɑѵƊɑѵ.js</div>
+                </div>
+                <div class="user-box__icons">
+                  <i class="fas fa-arrow-down"></i>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </aside>
+      </div>
+
+      <div id="header-container">
+        <!-- HEADER (SEARCH BAR) -->
+        <header>
+          <div id="search-container">
+            <div class="search">
+              <label for="site-search"><i class="fas fa-search"></i></label>
+              <input type="search" placeholder="Find a manga to watch..." />
+            </div>
+            <div class="buttons">
+              <div class="notifications --square">
+                <i class="fas fa-bell"></i>
+              </div>
+              <div class="profile-picture --square"></div>
+            </div>
+          </div>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+          <div id="main-container">
+            <header>
+              <div id="main-header-container">
+                <div id="main-header-trends-container">
+                  <section id="trends-container">
+                    <div class="trends-container__image"></div>
+                    <div class="trends-container__text">
+                      <div class="trends-container__logo"></div>
+                      <h2>L'Attaque des Titans</h2>
+                      <h3>Prochain épisode le 4 avril à 21h</h3>
+                      <p>🗾 Les épisodes en H+1 avec le Japon</p>
+                    </div>
+                  </section>
+                  <section id="streaming-container">
+                    <h2>Resume</h2>
+                    <select name="streaming" id="streaming-select">
+                      <option value="">VOSTFR</option>
+                      <option value="">VF</option>
+                      <option value="">Best Rated</option>
+                      <option value="">Japan</option>
+                    </select>
+                  </section>
+                  <div id="streaming-articles-container">
+                    <div class="streaming-article-container">
+                      <div class="streaming-article-container__background">
+                        <img
+                          src="assets/images/streaming-container/yumeko bg.jpg"
+                          alt=""
+                        />
+                        <p><i class="fas fa-play"></i></p>
+                      </div>
+                      <div class="description">
+                        <h2>Gambling School</h2>
+                        <h3>Saison 1 - Épisode 8</h3>
+                      </div>
+                    </div>
+                    <div class="streaming-article-container">
+                      <div class="streaming-article-container__background">
+                        <img
+                          src="assets/images/streaming-container/mhabg.jpg"
+                          alt=""
+                        />
+                        <p><i class="fas fa-play"></i></p>
+                      </div>
+                      <div class="description">
+                        <h2>My Hero Academia</h2>
+                        <h3>Saison 2 - Épisode 3</h3>
+                      </div>
+                    </div>
+                    <div class="streaming-article-container">
+                      <div class="streaming-article-container__background">
+                        <img
+                          src="assets/images/streaming-container/acbg.png"
+                          alt=""
+                        />
+                        <p><i class="fas fa-play"></i></p>
+                      </div>
+                      <div class="description">
+                        <h2>Assassination Classroom</h2>
+                        <h3>Saison 1 - Épisode 22</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="main-aside-container">
+                  <aside>
+                    <section id="manga-list-container">
+                      <article>
+                        <h2>Top Anime VF</h2>
+                        <ol>
+                          <li>1 - Hunter X Hunter</li>
+                          <li>2 - One Piece</li>
+                          <li>3 - Naruto Shippuden</li>
+                          <li>4 - Fairy Tail</li>
+                          <li>5 - Boruto - Naruto Next Generations</li>
+                        </ol>
+                        <h2>Anime Par Genre</h2>
+                        <nav>
+                          <ul>
+                            <li>Action</li>
+                            <li>Comédie</li>
+                            <li>Drame</li>
+                            <li>Surnaturel</li>
+                            <li>Shonen</li>
+                            <li>Romance</li>
+                            <li>Aventure</li>
+                            <li>Tranche de Vie</li>
+                            <li>Fantasy</li>
+                            <li>Mystère</li>
+                            <li>Psychologique</li>
+                            <li>Sci-Fi</li>
+                          </ul>
+                        </nav>
+                      </article>
+                    </section>
+                  </aside>
+                </div>
+              </div>
+            </header>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
